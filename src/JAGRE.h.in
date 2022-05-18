@@ -1,0 +1,4 @@
+//configurations options and settings for J.A.G.R.E.
+#define JAGRE_VERSION_MAJOR @JAGRE_VERSION_MAJOR@
+#define JAGRE_VERSION_MINOR @JAGRE_VERSION_MINOR@
+#define JAGRE_VERSION_PATCH @JAGRE_VERSION_PATCH@
