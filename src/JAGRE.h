@@ -1,8 +1,6 @@
-﻿// JAGRE.h: Includedatei für Include-Standardsystemdateien
-// oder projektspezifische Includedateien.
+﻿// JAGRE.h: Main header. Include all the stuff here you want to use!!
 
 #pragma once
 
 #include <iostream>
-
-// TODO: Verweisen Sie hier auf zusätzliche Header, die Ihr Programm erfordert.
+#include "Math/MyVector.h"
