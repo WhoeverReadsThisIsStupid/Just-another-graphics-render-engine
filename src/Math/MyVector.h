@@ -1,55 +1,23 @@
-//MyVector.h - Definition for the MyVector class
+#pragma once
 
+#include "MyTuple.h"
 
-namespace MyVector 
+namespace Math 
 {
-	struct Tuple
-	{
-	private:
-		long x;
-		long y;
-		long z;
-	public:
-		Tuple(const long& x, const long& y, const long& z);
-		Tuple operator+(const Tuple& t);
-		Tuple operator-(const Tuple& t);
-		long getValue(const char& axis);
-	};
-
-	class Point
-	{
-	private:
-		//x, y, z
-		Tuple tuple;
-	public:
-		//Constructors
-		Point(const Tuple& tuple);
-		Point(const long& x, const long& y, const long& z);
-
-		//AddVectorToPoint
-		Point operator+(const Vector& v);
-
-		//SubtractVectorFromPoint
-		Point operator-(const Vector& v);
-
-		//SubtractPointFromPoint
-		Vector operator-(const Point& p);
-	};
-
 	class Vector
 	{
-	private:
+	public:
 		//x, y, z
 		Tuple tuple;
-	public:
+
 		//Constructors
 		Vector(const Tuple& tuple);
 		Vector(const long& x, const long& y, const long& z);
 
-		//AddVectorToVector
+		//Add vector to vector
 		Vector operator+(const Vector& v);
 
-		//SubtractVectorFromVector
+		//Subtract vector from vector
 		Vector operator-(const Vector& v);
 	};
 }
