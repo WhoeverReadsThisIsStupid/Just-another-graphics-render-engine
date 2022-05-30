@@ -7,9 +7,9 @@ int main()
 	std::cout << "Hello JAGRE." << std::endl;
 	Math::Point point1 = Math::Point(1,2,1);
 	Math::Point point2 = Math::Point(0, 4, 4);
-	Math::Vector vector1 = Math::Vector(2, 0, 0);
+	Math::Vector3D vector1 = Math::Vector3D(2, 0, 0);
 
-	Math::Vector vector2;
+	Math::Vector3D vector2;
 
 	point1.drawPoint();
 	point2.drawPoint();
